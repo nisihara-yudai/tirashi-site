@@ -1,149 +1,170 @@
-<!DOCTYPE html>
-<html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>デモサイトの制作</title>
-        <link rel="stylesheet" href="../common_3/css_3/shopping.css">
-        <link rel="stylesheet" href="../common_3/css_3/normalize_3.css">
-    </head>
-    <body>
-        <article>
-            <div id="wrap">
-                <header>store shop  節分セール</header>
-                <div id="nav">
-                    <ul>
-                        <li><a href="shopping.html">お買い物セール</a></li>
-                        <li><a href="#">今日の目玉商品</a></li>
-                        <li><a href="#">今日入荷した商品</a></li>
-                        <li><a href="#">今週のお得商品</a></li>
-                        <li><a href="#">アクセス</a></li>
-                    </ul>
-                </div>
-                <div class="box1">
-                    <h1 class="shopping1">お買い物セール</h1>
-                    <div class="time-sale">※午後5時〜午後7時までのタイムセール</div>
-                    <div class="left-box">
-                        <ul>
-                            <li class="gift">玉ねぎ 1個 70円→1個 50円 3個で90円</li>
-                            <li class="gift">きゅうり 1本 80円→1本 50円 3本で90円</li>
-                            <li class="gift">豚バラ肉 100g 200円→100g 100円</li>
-                            <li class="gift">人参 1本 50円→1本 20円 3本で50円</li>
-                        </ul>
-                        <div class="picture">
-                            <img src="images/onion.jpg" class="item-picture" alt="">
-                            <img src="images/kyuri.jpg" class="item-picture" alt="">
-                            <a href="images/pig-slice.jpg"><img src="images/pig-slice.jpg" class="item-picture" alt=""></a>
-                            <img src="images/carrot.jpg" class="item-picture" alt="">
-                        </div>
-                    </div>
-                    <div class="orei_1">
-                        画像を引用させていただきました。ありがとうございます。<br>
-                        豚バラ肉の写真は、クリックすると大きくなります。※値段は関係ありません。
-                    </div>
-                    <div class="innyou1">
-                        玉ねぎ https://www.ja-ymg.or.jp/agriculture/onion/<br>
-                        きゅうり https://chefgohan.gnavi.co.jp/food/cucumber/<br>
-                        豚バラ肉 http://costco-suki.seesaa.net/upload/detail/image/IMG_0436_1-thumbnail2.jpg.html<br>
-                        人参 https://sm.rakuten.co.jp/item/1385226209<br>
-                    </div>
-                </div>
+<!doctype html>
+<html class="no-js" lang="ja">
 
-                <div id="items">
-                    <div class="box2">
-                        <h2 class="shopping2">今日の目玉商品</h2>
-                        <div class="popular">※人気商品の為、売り切れ御免</div> 
-                        <div class="left-box">
-                            <ul class="gift_1">
-                                <li>みかん 100g 200円→100g 80円</li>
-                                <li>卵 1パック 190円→1パック 150円</li>
-                                <li>苺 100g 200円→100g 150円</li>
-                                <li>コロッケ 1個 20円→1個 5円</li>
-                            </ul>
-                            <div class="picture_1">
-                                <img src="images/mikan.jpg" class="item-picture_1" alt="">
-                                <img src="images/egg.jpg" class="item-picture_1" alt=""><br>
-                                <img src="images/strowberry.jpg" class="item-picture_1" alt="">
-                                <img src="images/corokke.jpg" class="item-picture_1" alt="">
-                            </div>
-                        </div>
-                        <div class="orei_2">
-                            画像を引用させていただきました。ありがとうございます。
-                        </div>
-                        <div class="innyou2">
-                            みかん https://item.rakuten.co.jp/aionline-japan/c/0000001629/<br>
-                            卵 https://item.rakuten.co.jp/aionline-japan/c/0000001629/<br>
-                            苺 https://epark.jp/kosodate/enjoylife/sw-strawberry-type_17858/<br>
-                            コロッケ https://macaro-ni.jp/49380<br>
-                        </div>
-                    </div>
-        
-                    <div class="box3">
-                        <h3 class="shopping3">今日入荷した商品</h3>
-                        <div class="itioshi">※今日入荷しました</div>
-                        <div class="left-box">
-                            <ul>
-                                <li>国産じゃがいも 1個 20円</li>
-                                <li>国産野菜詰め合わせ 150g 100円</li>
-                                <li>お菓子詰め合わせ 160円</li>
-                                <li>国産サンマ 1匹 50円</li>
-                            </ul>
-                            <div class="picture_1">
-                                <img src="images/potato.jpg" class="item-picture_2" alt="">
-                                <img src="images/vegitable.jpg" class="item-picture_2" alt=""><br>
-                                <a href="images/okasi.jpg"><img src="images/okasi.jpg" class="item-picture_2" alt=""></a>
-                                <img src="images/sanma.jpg" class="item-picture_2" alt="">
-                            </div>
-                        </div>
-                        <div class="orei_3">
-                            画像を引用させていただきました。ありがとうございます。<br>
-                            お菓子の画像はクリックすると大きくなります。
-                        </div>
-                        <div class="innyou2">
-                            じゃがいも kagome.co.jp/vegeday/yasai/potato/<br>
-                            野菜詰め合わせ https://www.kagome.co.jp/vegeday/nutrition/201704/6759/<br>
-                            お菓子詰め合わせ https://store.shopping.yahoo.co.jp/okashinomarch/omtma6239k.html<br>
-                            国産秋刀魚 https://www.zukan-bouz.com/syu/%E3%82%B5%E3%83%B3%E3%83%9E<br>
-                        </div>
-                   </div>
-                </div>
+<head>
+  <meta charset="utf-8">
+  <title>チラシサイト</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-                <div class="box4">
-                    <h4 class="shopping4">今週のお得商品</h4>
-                    <div class="beans">※今週は<span class="red">特に</span>お得に買えます</div>
-                    <div class="left-box">
-                        <ul>
-                            <li class="gift">恵方巻 12cm 150円</li>
-                            <li class="gift">福豆（煎り大豆） 200g 150円</li>
-                            <li class="gift">落花生 200g 160円</li>
-                            <li class="gift">イワシ 2匹 100円</li>
-                        </ul>
-                        <div class="picture">
-                            <img src="images/ehoumaki.jpg" class="item-picture1" alt="">
-                            <img src="images/fukumame.jpg" class="item-picture1" alt="">
-                            <img src="images/rakkasei.jpg" class="item-picture1" alt="">
-                            <img src="images/iwasi.jpg" class="item-picture1" alt="">
-                        </div>
-                    </div>
-                    <div class="orei_1">
-                        画像を引用させていただきました。ありがとうございます。
-                    </div>
-                    <div class="innyou1">
-                        恵方巻 https://allabout.co.jp/gm/gc/220582/<br>
-                        福豆 https://www.kawagoeya.com/?items=【節分】福豆（川崎大師祈祷）<br>
-                        落花生 https://www.engei.net/Browse.asp?ID=65031<br>
-                        イワシ https://foodslink.jp/syokuzaihyakka/syun/fish/iwashi.htm<br>
-                    </div>
-                </div>
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
 
-                <div id="footer">
-                    <div class="invite">感染予防には細心の注意を払って営業しております。<br>たくさんのお客様のお越しをお待ちしております。</div>
-                    <div class="jusho">
-                        <p class="address">所在地；広島県広島市安佐南区東原○○○</p>
-                        <div class="map"><iframe class="shopping" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6580.114457541415!2d132.4774000739148!3d34.45069513015664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355a9ec9bbc57225%3A0x5b04637f1f82b9e1!2z44OV44Os44K544K_IOadseWOn-W6lw!5e0!3m2!1sja!2sjp!4v1611916649459!5m2!1sja!2sjp" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
-                    </div>
-                </div>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="common/css/normalize.css">
+  <link rel="stylesheet" href="common/css/shopping.css">
+  <link rel="stylesheet" href="common/css/smart-phone.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <div id="wrap">
+    <header>store shop  節分セール</header>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">お買い物セール</a>
+        <a class="navbar-brand" href="#">今日の目玉商品</a>
+        <a class="navbar-brand" href="#">今日入荷した商品</a>
+        <a class="navbar-brand" href="#">今週のお得商品</a>
+        <a class="navbar-brand" href="#">アクセス</a>
+      </div>
+    </nav>
+    <div class="mb-3">
+      <div class="box1">
+        <h1 class="shopping1">お買い物セール</h1>
+        <div class="time-sale">※午後5時〜午後7時までのタイムセール</div>
+        <div class="left-box">
+            <ul>
+                <li class="gift">玉ねぎ 1個 70円→1個 50円 3個で90円</li>
+                <li class="gift">きゅうり 1本 80円→1本 50円 3本で90円</li>
+                <li class="gift">豚バラ肉 100g 200円→100g 100円</li>
+                <li class="gift">人参 1本 50円→1本 20円 3本で50円</li>
+            </ul>
+            <div class="picture">
+              <img src="images/onion.jpg" class="item-picture" alt="">
+              <img src="images/kyuri.jpg" class="item-picture" alt="">
+              <img src="images/pig-slice.jpg" class="item-picture" alt="">
+              <img src="images/carrot.jpg" class="item-picture" alt="">
             </div>
-        </article>
-    </body>
-    </html>
+        </div>
+        <div class="orei_1">
+            画像を引用させていただきました。ありがとうございます。<br>
+            豚バラ肉の写真は、クリックすると大きくなります。※値段は関係ありません。
+        </div>
+        <ul class="innyou1">
+            <li><a href ="https://www.ja-ymg.or.jp/agriculture/onion/">玉ねぎ</a></li>
+            <li><a href ="https://chefgohan.gnavi.co.jp/food/cucumber/">きゅうり</a></li>
+            <li><a href ="http://costco-suki.seesaa.net/upload/detail/image/IMG_0436_1-thumbnail2.jpg.html">豚バラ肉</a></li>
+            <li><a href ="https://sm.rakuten.co.jp/item/1385226209">人参</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <div id="items">
+        <div class="box2">
+          <h2 class="shopping2">今日の目玉商品</h2>
+          <div class="popular">※人気商品の為、売り切れ御免</div> 
+          <div class="left-box">
+              <ul class="gift_1">
+                  <li>みかん 100g 200円→100g 80円</li>
+                  <li>卵 1パック 190円→1パック 150円</li>
+                  <li>苺 100g 200円→100g 150円</li>
+                  <li>コロッケ 1個 20円→1個 5円</li>
+              </ul>
+              <div class="picture_1">
+                  <img src="images/mikan.jpg" class="item-picture_1" alt="">
+                  <img src="images/egg.jpg" class="item-picture_1" alt=""><br>
+                  <img src="images/strowberry.jpg" class="item-picture_1" alt="">
+                  <img src="images/corokke.jpg" class="item-picture_1" alt="">
+              </div>
+          </div>
+          <div class="orei_2">
+              画像を引用させていただきました。ありがとうございます。
+          </div>
+          <ul class="innyou2">
+              <li><a href ="https://item.rakuten.co.jp/aionline-japan/c/0000001629/">みかん</a></li>
+              <li><a href ="https://item.rakuten.co.jp/aionline-japan/c/0000001629/">卵</a></li>
+              <li><a href ="https://epark.jp/kosodate/enjoylife/sw-strawberry-type_17858/">苺</a></li>
+              <li><a href ="https://macaro-ni.jp/49380">コロッケ</a></li>
+          </ul>
+       </div>  
+        
+        <div class="box3">
+          <h3 class="shopping3">今日入荷した商品</h3>
+          <div class="itioshi">※今日入荷しました</div>
+          <div class="left-box">
+              <ul>
+                  <li>国産じゃがいも 1個 20円</li>
+                  <li>国産野菜詰め合わせ 150g 100円</li>
+                  <li>お菓子詰め合わせ 160円</li>
+                  <li>国産サンマ 1匹 50円</li>
+              </ul>
+              <div class="picture_1">
+                  <img src="images/potato.jpg" class="item-picture_2" alt="">
+                  <img src="images/vegitable.jpg" class="item-picture_2" alt=""><br>
+                  <a href="images/okasi.jpg"><img src="images/okasi.jpg" class="item-picture_2" alt=""></a>
+                  <img src="images/sanma.jpg" class="item-picture_2" alt="">
+              </div>
+          </div>
+          <div class="orei_3">
+              画像を引用させていただきました。ありがとうございます。<br>
+              お菓子の画像はクリックすると大きくなります。
+          </div>
+          <ul class="innyou3">
+            <li><a href ="kagome.co.jp/vegeday/yasai/potato/">じゃがいも</a></li>
+            <li><a href ="https://www.kagome.co.jp/vegeday/nutrition/201704/6759/">野菜詰め合わせ</a></li>
+            <li><a href ="https://store.shopping.yahoo.co.jp/okashinomarch/omtma6239k.html">お菓子詰め合わせ</a></li>
+            <li><a href ="https://www.zukan-bouz.com/syu/%E3%82%B5%E3%83%B3%E3%83%9E">国産秋刀魚</a></li>
+          </ul>
+        </div>   
+    </div>
+
+    
+    <div class="mb-3">
+      <div class="box4">
+        <h4 class="shopping4">今週のお得商品</h4>
+        <div class="beans">※今週は<span class="red">特に</span>お得に買えます</div>
+        <div class="left-box">
+            <ul>
+                <li class="gift">恵方巻 12cm 150円</li>
+                <li class="gift">福豆（煎り大豆） 200g 150円</li>
+                <li class="gift">落花生 200g 160円</li>
+                <li class="gift">イワシ 2匹 100円</li>
+            </ul>
+            <div class="picture">
+                <img src="images/ehoumaki.jpg" class="item-picture1" alt="">
+                <img src="images/fukumame.jpg" class="item-picture1" alt="">
+                <img src="images/rakkasei.jpg" class="item-picture1" alt="">
+                <img src="images/iwasi.jpg" class="item-picture1" alt="">
+            </div>
+        </div>
+        <div class="orei_1">
+            画像を引用させていただきました。ありがとうございます。
+        </div>
+        <ul class="innyou4">
+          <li><a href ="https://allabout.co.jp/gm/gc/220582/">恵方巻</a></li>
+          <li><a href ="https://www.kawagoeya.com/?items=【節分】福豆（川崎大師祈祷）">福豆</a></li>
+          <li><a href ="https://www.engei.net/Browse.asp?ID=65031">落花生</a></li>
+          <li><a href ="https://foodslink.jp/syokuzaihyakka/syun/fish/iwashi.htm">イワシ</a></li>
+        </ul>
+     </div>  
+    </div>
+
+    <div id="footer">
+        <div class="invite">感染予防には細心の注意を払って営業しております。<br>たくさんのお客様のお越しをお待ちしております。</div>
+        <div class="jusho">
+            <p class="address">所在地；広島県広島市安佐南区東原○○○</p>
+            <div class="map"><iframe class="shopping" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6580.114457541415!2d132.4774000739148!3d34.45069513015664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355a9ec9bbc57225%3A0x5b04637f1f82b9e1!2z44OV44Os44K544K_IOadseWOn-W6lw!5e0!3m2!1sja!2sjp!4v1611916649459!5m2!1sja!2sjp" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
